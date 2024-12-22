@@ -10,7 +10,7 @@ public class Main {
         String fruit = in.next().toLowerCase(Locale.ROOT);
 
         switch (fruit) {
-            case "mango" -> System.out.println("King of fruits");
+            case "mango" -> System.out.println("King of fruits.");
             case "apple" -> System.out.println("A sweet red fruit.");
             case "banana" -> System.out.println("The most popular fruit.");
             default -> System.out.println("Please enter a valid fruit.");
