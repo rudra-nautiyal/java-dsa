@@ -3,7 +3,7 @@ package com.rudra;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class input {
+public class Input {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arr = new int[5];
