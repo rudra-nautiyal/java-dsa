@@ -1,4 +1,5 @@
 package com.rudranautiyal;
+// https://leetcode.com/problems/shuffle-the-array/
 
 public class No_1480_RunningSumOfArray {
     public int[] runningSum(int[] nums) {
@@ -10,11 +11,3 @@ public class No_1480_RunningSumOfArray {
         return nums;
     }
 }
-// Optimized Solution from leetcode
-// public int[] runningSum(int[] nums) {
-//    for(int i = 1; i < nums.length; i++) {
-//        nums[i] = nums[i] + nums[i - 1];
-//    }
-//
-//    return nums;
-//}
