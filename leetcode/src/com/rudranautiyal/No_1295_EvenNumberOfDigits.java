@@ -1,6 +1,4 @@
 package com.rudranautiyal;
-// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
-
 public class No_1295_EvenNumberOfDigits {
     public static void main(String[] args) {
         int[] nums = {12,345,2,6,7896};

@@ -1,6 +1,4 @@
 package com.rudranautiyal;
-// https://leetcode.com/problems/build-array-from-permutation/description/
-
 import java.util.Arrays;
 
 public class No_1920_ArrayFromPermutation {

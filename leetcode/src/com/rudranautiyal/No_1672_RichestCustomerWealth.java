@@ -1,6 +1,4 @@
 package com.rudranautiyal;
-// https://leetcode.com/problems/richest-customer-wealth/description/
-
 public class No_1672_RichestCustomerWealth {
     public static void main(String[] args) {
         int[][] accounts = {
