@@ -1,7 +1,7 @@
 package com.rudranautiyal;
 
 public class No_1832_SentencePangram {
-    public boolean checkIfPangram(String sentence) {
+    static boolean checkIfPangram(String sentence) {
         if (sentence.length() < 26) {
             return false;
         }
@@ -13,5 +13,4 @@ public class No_1832_SentencePangram {
         }
         return true;
     }
-}
 }
