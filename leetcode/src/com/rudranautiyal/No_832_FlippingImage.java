@@ -1,5 +1,7 @@
 package com.rudranautiyal;
 
+// Flipping an image = invert and XOR it
+
 public class No_832_FlippingImage {
     public int[][] flipAndInvertImage(int[][] image) {
         int[][] res = new int[image.length][image[0].length];
