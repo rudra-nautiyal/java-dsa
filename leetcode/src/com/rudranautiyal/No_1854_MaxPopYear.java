@@ -17,7 +17,7 @@ public class No_1854_MaxPopYear {
                 resultYear = year;
             }
         }
-        
+
         return resultYear;
     }
 }
