@@ -1,6 +1,6 @@
 package datatypes;
 
-public class Project_2 {
+public class Project_2_DataTypes {
     public static void main(String[] args) {
         int num = 856; // declaration = initialization || datatype identifier = literal
         int NUM = 300; // case-sensitive
