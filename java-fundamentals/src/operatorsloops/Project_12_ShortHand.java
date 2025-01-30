@@ -9,6 +9,7 @@ public class Project_12_ShortHand {
         int x1 = input.nextInt();
         a = a + x1;
         a += x1;
+
         
         System.out.println(a);
         int x2 = input.nextInt();
