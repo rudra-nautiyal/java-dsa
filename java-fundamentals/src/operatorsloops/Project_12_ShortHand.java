@@ -10,7 +10,7 @@ public class Project_12_ShortHand {
         a = a + x1;
         a += x1;
 
-        
+
         System.out.println(a);
         int x2 = input.nextInt();
         a = a + x2;
