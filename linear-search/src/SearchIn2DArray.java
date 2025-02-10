@@ -11,9 +11,9 @@ public class SearchIn2DArray {
     }
 
     static boolean search(int[][] arr, int target) {
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
-                if (arr[row][col] == target) {
+        for (int[] ints : arr) {
+            for (int col = 0; col < ints.length; col++) {
+                if (ints[col] == target) {
                     return true;
                 }
             }

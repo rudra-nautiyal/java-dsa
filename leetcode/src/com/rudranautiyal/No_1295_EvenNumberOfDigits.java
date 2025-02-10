@@ -7,40 +7,19 @@ public class No_1295_EvenNumberOfDigits {
 
     static int findNumbers(int[] nums) {
         int count = 0;
-        for (int num : nums) {
-            if (even(num)) {
+        int even = 0;
+        for(int element : nums){
+            while(element > 0) {
+                element = element / 10;
                 count++;
             }
-        }
-        return count;
-    }
+            if(count % 2 == 0) {
+                even++;
+            }
 
-    static boolean even(int num) {
-        int numberofDigits = digits(num);
-        return numberofDigits % 2 == 0;
-    }
-
-    static int digits2(int num) {
-        if (num < 0) {
-            num = num * -1;
+            count = 0;
         }
 
-        return (int)(Math.log10(num)) + 1;
-    }
-    static int digits(int num) {
-        if (num < 0) {
-            num = num * -1;
-        }
-
-        if (num == 0) {
-            return 1;
-        }
-        int count = 0;
-
-        while (num > 0) {
-            count++;
-            num = num / 10;
-        }
-        return count;
+        return even;
     }
 }

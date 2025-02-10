@@ -9,7 +9,7 @@ public class Main {
         System.out.println(ans);
     }
 
-//    Search in the array: return the index if item found, else return -1
+//    Search in the array: return the index if item found, else return -1 but if they ask for value, you need to make some other word
     static int linearSearch(int[] arr, int target) {
         if(arr.length == 0) {
             return -1;
