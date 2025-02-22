@@ -1,26 +1,29 @@
 package com.rudranautiyal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class No_1380_LuckyNumbers {
     public List<Integer> luckyNumbers(int[][] matrix) {
         List<Integer> res = new ArrayList<>();
 
-        for(int row = 0; row < matrix.length; row++) {
+        for (int[] ints : matrix) {
             int minIndex = 0;
             boolean lucky = true;
-            for(int col = 0; col < matrix[row].length; col++) {
-                if(matrix[row][col] < matrix[row][minIndex]) {
+            for (int col = 0; col < ints.length; col++) {
+                if (ints[col] < ints[minIndex]) {
                     minIndex = col;
                 }
             }
-            for(int sec = 0; sec < matrix.length; sec++) {
-                if(matrix[sec][minIndex] > matrix[row][minIndex]) {
+            for (int[] value : matrix) {
+                if (value[minIndex] > ints[minIndex]) {
                     lucky = false;
                     break;
                 }
             }
 
-            if(lucky) {
-                res.add(matrix[row][minIndex]);
+            if (lucky) {
+                res.add(ints[minIndex]);
             }
         }
         return res;
