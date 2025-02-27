@@ -14,6 +14,7 @@ public class No_162_FindPeakElement {
                 start = mid + 1;
             }
         }
+
         return start;
     }
 }
